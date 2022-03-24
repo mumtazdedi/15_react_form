@@ -1,0 +1,72 @@
+.form{
+    background-color: rgb(214, 214, 214);
+    padding: 2.5rem;
+    box-shadow: 5px 0px 5px rgba(0, 0, 0, 0.288);
+}
+
+.form_group{
+    width: 100%;
+    margin-bottom: 0.5rem;
+}
+
+.form_group label{
+    display: block;
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.form_group input{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+.form_group textarea{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+.form_group select{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+.form_group button{
+    padding: 10px;
+    border-radius: 10px;
+    outline: none;
+    margin-right: 0.5rem;
+}
+
+.form_group button[type="submit"]{
+    background-color: rgb(59, 204, 83);
+    color: #fff;
+    border: none;
+}
+
+.form_group button[type="reset"]{
+    background-color: rgb(216, 57, 57);
+    color: #fff;
+    border: none;
+}
+
+.form_group input:focus{
+    outline: none;
+}
+
+.form_group input[type=radio]{
+    width: fit-content;
+    margin-left: 0.5rem;
+}
